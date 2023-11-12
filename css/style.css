@@ -1,0 +1,43 @@
+body { overflow:hidden; margin:0;  }
+
+    .Input #editor::-webkit-scrollbar{
+      width:thin;
+    }
+    .Input #editor::-webkit-scrollbar-thumb {
+       background:red
+    }
+  
+ .Input #editor { 
+   scrollbar-color: rgba(224, 224, 224, 0.67) rgba(237, 237, 237, 1);
+    position:absolute;
+     bottom:0;
+     left:0;
+   right:20%;
+ font-weight: normal;
+  color:rgba(18, 18, 18, 0.98);
+  
+  scrollbar-width: thin;
+    }
+   
+    
+	
+
+ 
+  .same { 
+       top:0;   
+  }   
+  
+  .output{ position:absolute;left:80%;right:0; bottom:0; 
+        box-shadow: -3px 2px 20px 0px hsla(0, 0%, 80%, 0.82); 
+       border-left:inset 10px rgba(255, 255, 255, 0); 
+        touch-action: none;
+     box-sizing: border-box; 
+    }  
+    .ace_gutter-layer  { background:white}
+    
+   .output iframe {border:none; box-sizing: border-box;display: block; touch-action: none;
+       margin:0; width:100%; overflow-x:hidden; height:100%; 
+    }
+    .output .ss { position:absolute; top:0; bottom:0; left:0; right:0;display:none; 
+      
+    }
