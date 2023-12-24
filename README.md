@@ -11,7 +11,9 @@ The **HTML Compiler** is a powerful tool designed to streamline the process of c
 - **Customization:** Fine-tune compilation settings to meet your project requirements.
 - **User-Friendly Interface:** Intuitive UI designed for both beginners and experienced developers.
 
-## Getting Started
+## Preview
+
+Visit https://myselfshivams.github.io/HTML-Compiler/ to code live!
 
 ### Installation
 
